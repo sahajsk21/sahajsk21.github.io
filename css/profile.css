@@ -1,0 +1,16 @@
+.center{
+  text-align:center;
+}
+
+#nametitle{
+  margin: 25% 0em;
+  color: white;
+}
+
+.back_black{
+  background-color: black;
+}
+
+.col-1, .col-11{
+  padding:0px;
+}
