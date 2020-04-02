@@ -1,3 +1,6 @@
+body{
+  overflow: hidden;
+}
 .center{
   text-align:center;
 }
@@ -5,7 +8,6 @@
 #nametitle{
   margin: 25% 0em;
   color: white;
-  font-family: 'Baloo Da 2', cursive;
 }
 
 .back_black{
@@ -14,4 +16,47 @@
 
 .col-1, .col-11{
   padding:0px;
+  float: left;
+}
+.col-3{
+  
+  float: left;
+  padding-top: 30px;
+}
+.card{
+  width:100%;
+  padding:25% 25%;
+  border-color: black;
+  border-radius: 2em;
+  cursor: pointer;
+  background-color:black;
+}
+
+.card-text{
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.card:hover{
+  /* box-shadow:2px 2px rgb(0, 0, 0); */
+  border-color: 2px gray;
+  background-color: gray;
+}
+
+@keyframes typewriter {
+  0%, 100% {
+    width: 0;
+  }
+  20%, 80% {
+    width: 10.2em;
+  }
+}
+@keyframes caret {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }
