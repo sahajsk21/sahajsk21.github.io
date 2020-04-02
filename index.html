@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sahaj Khandelwal</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="css/profile.css">
-    </head>
-    <body class="back_black" onload="typewriter()">
-        <div>
-            <div class="row" style="margin:0px">
-                <div class="col-1 left_column"></div>
-                <div class="col-11 center right_column">
-                    <h1 class="nametitle" id="nametitle"></h1>
-                </div>
-              </div>
+
+<head>
+    <title>Sahaj Khandelwal</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+
+<body class="">
+    <div>
+        <div class="row back_black" style="margin:0px;border-radius: 0em 0em 2em 2em;">
+            <div class="col-12 center right_column ">
+                <h1 class="nametitle" id="nametitle">Sahaj Khandelwal</h1>
+            </div>
         </div>
+        <div class="row" id="bio" style="margin:0px">
+            <div class="col-3">
+                <div class="card" style="">
+                    <div class="card-text">Contact me</div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" >
+                    <div class="card-text">Contact me</div>
+                </div>
 
-    </body>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="crossorigin="anonymous"></script>
-    <script>
-        var i = 0;
-        var txt = 'Hi, I\'m Sahaj Khandelwal.';
-        var speed = 200;
+            </div>
+            <div class="col-3">
+                <div class="card" >
+                    <div class="card-text">Contact me</div>
+                </div>
 
-        function typewriter() {
-            if (i < txt.length) {
-                document.getElementById("nametitle").innerHTML += txt.charAt(i);
-                i++;
-                setTimeout(typewriter, speed);
-            }
-        }
+            </div>
+            <div class="col-3">
+                <div class="card" >
+                    <div class="card-text">Contact me</div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
     </script>
+<script>
+    $(document).ready(function () {
+        $("#nametitle").animate({ margin: "13%" }, 2000)
+    });
+
+</script>
+
 </html>
